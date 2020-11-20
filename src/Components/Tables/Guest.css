@@ -1,0 +1,53 @@
+.guest {
+}
+
+.orders > span {
+    color: rgb(255, 83, 83);
+    cursor: pointer;
+}
+
+.guest-closed {
+    opacity: .2;
+}
+
+.orders-closed {
+    opacity: .4;
+}
+
+.orders-closed > span {
+    cursor: text;
+    pointer-events: none;
+}
+
+.guest > p {
+    margin: 0;
+    padding: 10px 0 5px 0;
+    text-align: center;
+}
+
+.guest > ul {
+    list-style-type: none;
+    padding: 0;
+    height: 165px;
+    overflow: auto;
+}
+
+.guest > ul > li {
+    font-size: 15px;
+    margin: 3px 0;
+}
+
+.order-btn {
+    background-color: rgb(246, 253, 224);
+    cursor: pointer;
+}
+
+.btn-active {
+    background-color: rgb(69, 255, 62);
+}
+
+.btn-closed {
+    pointer-events: none;
+    background-color: rgb(246, 253, 224);
+    opacity: .2;
+}

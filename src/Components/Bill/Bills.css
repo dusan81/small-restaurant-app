@@ -1,0 +1,38 @@
+aside {
+    width: 400px;
+    max-width: 100%;
+}
+
+aside > h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+aside > ul {
+    padding: 0;
+}
+
+aside > ul > li {
+    margin: 10px 0;
+}
+
+.bills-wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    border-top: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.bills-wrap ul {
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+.paid-ul > li, .ordered-ul > li {
+    margin: 15px 0;
+}
+
+.paid-ul p, .ordered-ul p {
+    margin: 2px 0;
+}

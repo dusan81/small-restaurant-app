@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(34, 34, 36);
+    color: rgb(241, 241, 243);
+    margin: 0;
+    font-family: 'Calibri', sans-serif;
+}
+
+header {
+    background: rgb(42, 42, 44);
+    border-bottom: 1px solid rgb(90, 90, 90);
+    margin: 0;
+}
+
+.all-wrap {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0 15px 0;
+}
+
+.app-header > h1 {
+    font-size: 22px;
+    margin: 0;
+    padding: 10px 0 10px 25px;
+}
