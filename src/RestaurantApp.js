@@ -7,8 +7,11 @@ import './RestaurantApp.css';
 
 function RestaurantApp() {
 
+    // eslint-disable-next-line no-unused-vars
     const [guestCount, setGuestCount] = useState(4);
+    
 
+    // eslint-disable-next-line no-unused-vars
     const [tablesCount, setTablesCount] = useState(4);
 
     const guestsArr = Array.from({length: guestCount}, (v, i) => (

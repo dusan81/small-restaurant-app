@@ -1,11 +1,9 @@
-import React, { useState} from 'react';
+import React from 'react';
 import { MenuItemsList } from './MenuItemsList';
 import { menu } from '../../data';
 import './Menu.css';
 
 export function Menu({ addOrderedItem }) {
-
-    const [allMenu, setAllMenu] = useState(menu);
 
     const menuArr = Object.keys(menu);
 
